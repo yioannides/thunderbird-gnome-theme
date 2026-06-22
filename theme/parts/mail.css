@@ -253,3 +253,9 @@ link[href="chrome://global/content/elements/moz-message-bar.css"] + .container {
 	}
 }
 
+/* remove opacity from user-defined tag colors */
+.tag-icon {
+  -moz-context-properties: fill !important;
+  fill: var(--tag-color, currentColor) !important;
+}
+
