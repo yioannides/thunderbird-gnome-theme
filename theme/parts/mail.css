@@ -123,6 +123,11 @@ hr[is="pane-splitter"] {
 		border-radius: 6px !important;
 		grid-template-columns: 1fr !important;
 		min-height: 60px !important;
+		padding-bottom: 3px;
+		
+		.thread-card-column {
+		  padding-inline-start: 6px;
+		}
 
 		.thread-card-column:first-child {
 			display: none !important;
@@ -258,4 +263,3 @@ link[href="chrome://global/content/elements/moz-message-bar.css"] + .container {
   -moz-context-properties: fill !important;
   fill: var(--tag-color, currentColor) !important;
 }
-
