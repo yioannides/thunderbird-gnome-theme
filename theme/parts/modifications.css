@@ -542,13 +542,24 @@ notification-message[style*="opacity: 0"] {
   border-width: 0 !important;
 }
 
+/* in-mail notification */
 #mail-notification-top,
 .notificationbox-stack {
+  background-color: var(--gnome-view-background) !important;
   border-block-end: none !important;
   display: flex !important;
   flex-direction: column !important;
   height: auto !important;
   min-height: 0 !important;
+}
+
+notification-message[message-bar-type="infobar"] {
+	background-color: var(--gnome-window-background) !important;
+}
+
+link[href="chrome://global/content/elements/moz-message-bar.css"] + .container,
+#mail-notification-top div.container {
+  background-color: var(--gnome-window-background) !important;
 }
 
 notification-message button.notification-button {
@@ -573,11 +584,6 @@ notification-message button.close {
   width: 28px !important;
   height: 28px !important;
   transition: background-color 0.2s !important;
-}
-
-link[href="chrome://global/content/elements/moz-message-bar.css"] + .container,
-#mail-notification-top div.container {
-  background-color: var(--gnome-window-background) !important;
 }
 
 /* 
