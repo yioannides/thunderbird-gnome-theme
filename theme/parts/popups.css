@@ -78,8 +78,10 @@ panel  {
 	--gnome-menu-padding: 6px;
 }
 
+/* dropdown menu background color */
 .panel-header,
 .panel-subview-body {
+  background-color: var(--gnome-menu-background) !important;
 	padding: 6px !important;
 }
 
@@ -166,3 +168,4 @@ menuseparator {
 menuseparator::before {
 	display: none !important;
 }
+
