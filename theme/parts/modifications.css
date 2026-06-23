@@ -544,6 +544,7 @@ notification-message[style*="opacity: 0"] {
 
 #mail-notification-top,
 .notificationbox-stack {
+  border-block-end: none !important;
   display: flex !important;
   flex-direction: column !important;
   height: auto !important;
