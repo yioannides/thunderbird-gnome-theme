@@ -123,10 +123,10 @@ hr[is="pane-splitter"] {
 		border-radius: 6px !important;
 		grid-template-columns: 1fr !important;
 		min-height: 60px !important;
-		padding-bottom: 3px;
+		padding-bottom: 1px;
 		
 		.thread-card-column {
-		  padding-inline-start: 6px;
+		  padding-inline-start: 4px;
 		}
 
 		.thread-card-column:first-child {
