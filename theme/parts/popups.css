@@ -34,7 +34,7 @@ menulist {
 .menupopup-arrowscrollbox {
 	-moz-appearance: none !important;
 	background: var(--gnome-menu-background) !important;
-	border: 1px solid var(--gnome-border-color) !important;
+	border: none !important;
 	border-radius: 12px !important;
 	box-shadow: var(--gnome-menu-shadow) !important;
 	padding: 6px !important;
