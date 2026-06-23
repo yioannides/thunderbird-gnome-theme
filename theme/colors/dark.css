@@ -57,7 +57,7 @@
 	  --folder-color-spam: var(--gnome-palette-red-1) !important;
 	  --folder-color-trash: var(--gnome-palette-light-1) !important;
 	  --folder-color-template: var(--gnome-palette-light-2) !important;
-	    
+	  
 	  /* left sidebar icons - unused */
 	  --folder-color-newsletter: var(--color-text-secondary);
 	  --folder-color-rss: var(--color-accent-orange);
@@ -66,12 +66,12 @@
 	  --folder-color-folder-filter: var(--color-accent-pink);
 	  --folder-color-folder-rss: var(--color-accent-orange);
 	  --folder-color-warning: var(--color-text-critical);
-
+	  
 		/* Backdrop colors */
 		&:-moz-window-inactive {
 			--gnome-sidebar-background: #28282c;
 			--gnome-secondary-sidebar-background: #252529;
-		
+			
 			/* left sidebar icons */
 		  --folder-color-inbox: var(--gnome-palette-blue-1) !important;
 		  --folder-color-draft: var(--gnome-palette-purple-1) !important;
@@ -80,7 +80,7 @@
 		  --folder-color-spam: var(--gnome-palette-red-1) !important;
 		  --folder-color-trash: var(--gnome-palette-light-1) !important;
 		  --folder-color-template: var(--gnome-palette-light-2) !important;
-	    
+		  
 	    	/* left sidebar icons - unused */
 	    	--folder-color-newsletter: var(--color-text-secondary);
 	    	--folder-color-rss: var(--color-accent-orange);
