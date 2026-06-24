@@ -20,6 +20,7 @@
 #attachmentBar,
 #attachmentView,
 #attachmentList {
+	border: none !important;
 	background: var(--gnome-window-background) !important;
 }
 
