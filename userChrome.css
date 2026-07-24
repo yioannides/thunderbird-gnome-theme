@@ -12,3 +12,8 @@
 #compose-toolbar-menubar2 {
   display: none !important;
 }
+
+/* remove new account indicator from Unified Inbox */
+.account-indicator {
+  display:none !important;
+}
